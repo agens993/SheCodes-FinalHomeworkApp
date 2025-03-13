@@ -1,16 +1,100 @@
+header {
+  border-bottom: 1.25px solid #f4f1fe;
+  padding-bottom: 20px;
+}
+
 body {
   background: #f4f1fe;
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: weight;
   font-style: normal;
+}
+
+a {
+  color: blueviolet;
 }
 
 .window {
   background: white;
-  border-radius: 30px;
+  border-radius: 10px;
   margin: 50px auto;
   padding: 50px;
-  max-width: 500px;
+  max-width: 600px;
   box-shadow: 0 20px 50px rgba(65, 50, 100, 0.08);
+}
+
+.search-form-input {
+  background: #f4f1fe;
+  border: none;
+  border-radius: 7px;
+  width: 80%;
+  margin-right: 2%;
+  padding: 10px;
+}
+
+.search-form-submit-button {
+  background-color: blueviolet;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  padding: 10px 20px;
+}
+
+main {
+  padding: 30px 0;
+}
+
+.app-city {
+  font-size: 30px;
+  line-height: 48px;
+}
+
+.app-details {
+  font-size: 16px;
+  line-height: 30px;
+  color: rgba(106, 106, 106, 0.778);
+}
+
+.app-details strong {
+  color: blueviolet;
+}
+
+.app-temp-container {
+  display: flex;
+}
+
+.app-temp-icon {
+  marign-top: 20px;
+  margin-right: 20px;
+  font-size: 50px;
+  line-height: 48px;
+}
+
+.app-temp-number {
+  font-size: 70px;
+  line-height: 48px;
+  font-weight: 700;
+}
+
+.app-temp-unit {
+  margin-top: -15px;
+  margin-left: 5px;
+  font-size: 28px;
+  line-height: 48px;
+  font-weight: 600;
+}
+
+.weather-data {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer {
+  border-top: 1.25px solid #f4f1fe;
+  padding-top: 20px;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: rgba(106, 106, 106, 0.547);
 }
