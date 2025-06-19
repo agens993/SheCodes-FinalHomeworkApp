@@ -65,10 +65,9 @@ main {
 }
 
 .app-temp-icon {
-  margin-top: 20px;
+  margin-top: -15px;
   margin-right: 20px;
-  font-size: 50px;
-  line-height: 48px;
+  max-width: 70px;
 }
 
 .app-temp-number {
